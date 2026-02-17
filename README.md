@@ -2,16 +2,17 @@
 
   Write the Dockerfile and build image and create a container for deploy html page in nginx web server
 
-  step 1
+  step 1 : DOckerfile
     Write the Dockerfile for nginx it have a 
     FROM, 
     COPY 
     CMD
 
-  step 2
+  step 2 : Docker Image
     Based on above Dockerfile to create a Docker image 
     command "docker build -t <image_name> ."
-  step 3
+    
+  step 3 : Docker Container
     Based on above image to create a Docker container
     command "docker run -d --name < container_name > -p < container_port:host_port > < image_name > 
     If want tags to give with the image name
