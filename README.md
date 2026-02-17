@@ -39,7 +39,7 @@
   kubectl apply -f deployment.yaml 
   kubectl apply -f service.yaml
 
-  Access application:
+  Access application :
   minikube ip http://>minikubeip:port>
 
   step 3 : Push to GitHub
