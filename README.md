@@ -19,12 +19,13 @@
 
 # kubernetes-practice 
 
-   This project demonstrates how to deploy an Nginx application on Kubernetes using Docker, Minikube, and GitHub.
+   This project was demonstrates how to deploy an Nginx application on Kubernetes using Docker, Minikube, and GitHub.
 
    step 1 : Docker setup
    Create Dockerfile Build DOcker image Create Nginx Docker Container
 
-   Commands: docker build -t docker run -d -p host:container
+   Commands: docker build -t . 
+   docker run -d -p host:container
 
    step 2 : Kubernetes Cluster setup   (minikube)
    Create minikube cluster or start the minikube to 
